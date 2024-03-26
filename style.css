@@ -1,0 +1,43 @@
+body{
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+#container{
+    text-align: center;
+}
+label{
+    font-size:1.5em;
+}
+#input-num{
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-size:1.5em;
+    font-weight: bold;
+}
+#roll-dice{
+    font-size: 1em;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: hsla(240, 100%, 50%, 0.815);
+    color: hsl(0, 0%, 90%);
+    border:0;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  hsla(240, 95%, 33%, 0.808);
+}
+button:active{
+    background-color: hsla(240, 94%, 19%, 0.808) ;
+    color:white;
+}
+#dice-text-result{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+#dice-image-result img{
+    width:300px;
+    margin:25px;
+
+}
